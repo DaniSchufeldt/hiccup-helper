@@ -3,17 +3,17 @@
   <div class="home-container">
     <div class="add-remedy">
       <object data="assets/images/x_icon.svg">
-          <a href="/remedy"><%= image_tag 'plus_icon.svg'%></a>
+          <a href="/remedy" title="Add your own remedy"><%= image_tag 'plus_icon.svg'%></a>
       </object>
     </div>
     <div class="display_remedy">
         <h1><%=@hiccup_cure%></h1>
     </div>
     <div class="didnt-work">
-        <a href=""><%= image_tag 'black_x_icon.svg'%></a>
+        <a href="" title="Hiccup! I need another remedy!"><%= image_tag 'black_x_icon.svg'%></a>
     </div>
     <div class="it-worked">
-        <a href="/hurray"><%= image_tag 'black_check_icon.svg'%></a>
+        <a href="/hurray" title="It worked!"><%= image_tag 'black_check_icon.svg'%></a>
     </div>
   </div>
 </body>
