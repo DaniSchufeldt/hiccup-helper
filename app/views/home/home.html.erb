@@ -6,20 +6,14 @@
           <a href="/remedy"><%= image_tag 'plus_icon.svg'%></a>
       </object>
     </div>
-    <div class="cure">
+    <div class="display_remedy">
         <h1><%=@hiccup_cure%></h1>
     </div>
     <div class="didnt-work">
-        <form method="GET" action=""> <input type="submit" value="Hiccup! Give me another!"></form>
-          <object data="assets/images/x_icon.svg">
-            <%= image_tag 'black_x_icon.svg'%>
-          </object>
+        <form method="GET" action=""> <input type="image"<%= image_tag 'black_x_icon.svg'%></form>
     </div>
     <div class="it-worked">
-        <button type="button">It worked \o/</button>
-        <object data="assets/images/x_icon.svg">
-            <%= image_tag 'check_icon.svg'%>
-        </object>
+        <form method="GET" action=""> <input type="image"<%= image_tag 'check_icon.svg'%></form>
     </div>
   </div>
 </body>
