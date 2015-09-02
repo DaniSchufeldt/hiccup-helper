@@ -23,18 +23,18 @@
    margin-top: 0px;
  }
 
- .display_remedy {
+ .display-remedy {
    padding-top: 100px;
    padding-bottom: 100px;
    width: 650px;
    margin: 50px auto 0 auto;
  }
 
- .didnt-work{
+ .remedy-didnt-work{
    float: left;
  }
 
- .it-worked{
+ .remedy-worked{
   margin: 50px auto 0 320px;
  }
 
