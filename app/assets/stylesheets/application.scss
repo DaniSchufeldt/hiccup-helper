@@ -26,10 +26,12 @@
 
 .remedy-didnt-work{
   float: left;
+  color: black;
 }
 
 .remedy-worked{
   float: right;
+  color: black;
  }
 
 .add-your-own-remedy{
@@ -41,6 +43,14 @@
  width: 800px;
  margin: 100px auto 0 auto;
  text-align: center;
+}
+
+.twitter-bird{
+  color: black;
+}
+
+a:hover{
+  color: white;
 }
 
 body {
