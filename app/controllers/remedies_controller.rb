@@ -2,6 +2,8 @@ class RemediesController < ApplicationController
 
   def new
     @remedy = Remedy.new
+    @background_color = ["#40E0D0", "#87CEFA", "#7B68EE","#EE82EE","#4682B4", "#6495ED","#DAA520","#FF6347","#FFA500","#3CB371","#20B2AA"].sample
+
   end
 
   def create
@@ -24,7 +26,4 @@ class RemediesController < ApplicationController
       params.require(:remedy).permit(:description, :twitter_handle)
     end
 
-    def remedies
-      @background_color = ["#40E0D0", "#87CEFA", "#7B68EE","#EE82EE","#4682B4", "#6495ED","#DAA520","#FF6347","#FFA500","#3CB371","#20B2AA"].sample
-    end
 end
