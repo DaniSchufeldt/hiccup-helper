@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @remedy.description %>
+</p>
+
+<p>
+  <strong>Twitter handle:</strong>
+  <%= @remedy.twitter_handle %>
+</p>
+
+<%= link_to 'Edit', edit_remedy_path(@remedy) %> |
+<%= link_to 'Back', remedies_path %>
