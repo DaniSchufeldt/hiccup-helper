@@ -11,10 +11,6 @@
   margin-top: 0px;
 }
 
-.add-remedy-plus-button {
-  color: black;
-}
-
 .display-remedy-description {
   padding-top: 100px;
   width: 750px;
@@ -28,19 +24,16 @@
   margin: 50px auto 0 auto;
 }
 
-.buttons{
-  width: 750px;
-  margin: 30px auto 0 auto;
+.button {
+  color: black;
 }
 
 .remedy-didnt-work{
   float: left;
-  color: black;
 }
 
 .remedy-worked{
   float: right;
-  color: black;
  }
 
 .hurray-the-remedy-worked{
@@ -49,13 +42,6 @@
  text-align: center;
 }
 
-.twitter-bird{
-  color: black;
-}
-
-.home-button{
-  color: black;
-}
 
 a:hover{
   color: white;

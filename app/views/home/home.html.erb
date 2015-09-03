@@ -2,15 +2,14 @@
 <body class="home">
   <div class="home-container">
     <div class="add-remedy">
-        <a class="add-remedy-plus-button" href="/remedies" title="Add your own remedy"><i class="fa fa-plus fa-2x"></i></a>
+        <a href="/remedies" title="Add your own remedy"><i class="button fa fa-plus fa-2x"></i></a>
     </div>
     <div class="display-remedy-description">
         <h1><%=@hiccup_cure%></h1>
     </div>
-  </div>
-
-  <div class="buttons">
-    <a class="remedy-didnt-work" href="" title="Hiccup! I need another remedy!"><i class="fa fa-times-circle fa-4x"></i></a>
-    <a class="remedy-worked" href="/hurray" title="It worked!"><i class="fa fa-check-circle fa-4x"></i></a>
+    <div>
+      <a class="button remedy-didnt-work" href="" title="Hiccup! I need another remedy!"><i class="fa fa-times-circle fa-4x"></i></a>
+      <a class="button remedy-worked" href="/hurray" title="It worked!"><i class="fa fa-check-circle fa-4x"></i></a>
+    </div>
   </div>
 </body>
