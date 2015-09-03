@@ -10,7 +10,7 @@ class RemediesController < ApplicationController
     respond_to do |format|
       if @remedy.save
         format.html { redirect_to @remedy, notice: 'Your remedy has been added!' }
-        format.json { render :show, status: :created, location: @remedy }
+        format.json { render :new, status: :created, location: @remedy }
       else
         format.html { render :new }
         format.json { render json: @remedy.errors, status: :unprocessable_entity }

@@ -7,13 +7,13 @@ Rails.application.routes.draw do
   root 'home#home'
 
   get 'remedies' => 'remedies#new'
-  # get 'remedy' => 'home#remedy'
+  post 'remedies' => 'remedies#create'
   get 'hurray' => 'home#hurray'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
+  get 'remedies/new' => 'remedies#new', as: :remedy
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
