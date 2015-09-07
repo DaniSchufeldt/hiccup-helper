@@ -19,8 +19,8 @@
   text-align: center;
 }
 
-.new-remedy-page {
-  width: 750px;
+.add-new-remedy-page {
+  width: 700px;
   margin: 50px auto 0 auto;
 }
 
@@ -40,6 +40,22 @@
  width: 800px;
  margin: 100px auto 0 auto;
  text-align: center;
+}
+
+.remedy-description-field{
+  padding: 10px;
+}
+
+.twitter-field{
+  padding: 0 10px 10px 10px;
+}
+
+.actions {
+  padding: 0 10px 10px 10px;
+}
+
+.home{
+  padding: 0 10px 10px 10px;
 }
 
 a:hover{
