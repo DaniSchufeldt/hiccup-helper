@@ -1,20 +1,20 @@
 Rails.application.routes.draw do
-  # resources :remedies
+  resources :remedies, only: [:create, :new, :show]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'home#home'
 
-  get 'remedies' => 'remedies#new'
-  post'remedies' => 'remedies#create'
+  # get 'remedies' => 'remedies#new'
+  # post'remedies' => 'remedies#create'
   get 'hurray' => 'home#hurray'
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  # # Example of regular route:
+  # get 'remedies/:id' => 'remedies#show'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
-  get 'remedies/new' => 'remedies#new', as: :remedy
-
+  # get 'remedies/new' => 'remedies#new', as: :remedy
+  # get 'remedies/show' => 'remedies#show', as: :id
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
