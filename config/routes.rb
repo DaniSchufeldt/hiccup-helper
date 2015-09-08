@@ -5,16 +5,11 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'home#home'
-
-  # get 'remedies' => 'remedies#new'
-  # post'remedies' => 'remedies#create'
   get 'hurray' => 'home#hurray'
   # # Example of regular route:
-  # get 'remedies/:id' => 'remedies#show'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
-  # get 'remedies/new' => 'remedies#new', as: :remedy
-  # get 'remedies/show' => 'remedies#show', as: :id
+
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
